@@ -1,0 +1,6 @@
+cd tag
+./configure
+make -j4
+sudo make install
+cd ..
+sudo cp tag.pc /usr/local/lib/pkgconfig

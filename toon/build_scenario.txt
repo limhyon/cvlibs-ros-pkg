@@ -1,0 +1,3 @@
+cd toon
+./configure
+sudo make install

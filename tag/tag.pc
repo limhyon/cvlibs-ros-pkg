@@ -1,0 +1,9 @@
+prefix=/usr/local
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: TooN Algorithm Library
+Description: tag library 
+Version: tag-20090724
+Libs: -L${libdir} -ltoontag
+Cflags: -I${includedir}

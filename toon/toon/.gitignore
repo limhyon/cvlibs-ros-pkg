@@ -17,3 +17,4 @@ Makefile
 regressions/results
 *.o
 TooN-doxy.tag
+internal/config.hh
