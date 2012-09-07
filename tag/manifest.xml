@@ -1,0 +1,21 @@
+<package>
+<description brief="tag library">
+This package contains the tag library code.
+This package is just to provide compilation options and proper include path to the ROS package.
+http://www.edwardrosten.com/cvd/tag.html
+</description>
+<author>Dr Edward Rosten. ROS package maintained by Hyon Lim.</author>
+<license>GPL</license>
+<review status="3rdparty" notes=""/>
+<url>https://github.com/limhyon/cvlibs-ros-pkg</url>
+<export>
+  <cpp cflags="`pkg-config tag --cflags`" lflags="`pkg-config tag --libs`"/>
+</export>
+<versioncontrol type="git" url="https://github.com/limhyon/cvlibs-ros-pkg"/>
+
+<platform os="ubuntu" version="9.04"/>
+<platform os="ubuntu" version="9.10"/>
+<platform os="ubuntu" version="10.04"/>
+<platform os="ubuntu" version="oneiric"/>
+
+</package>

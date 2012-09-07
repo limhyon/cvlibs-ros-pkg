@@ -1,0 +1,13 @@
+<stack>
+  <description brief="cvlibs-ros-pkg">
+
+	Set of libraries for computer vision software development. This includes
+		- TooN, tag
+
+  </description>
+  <author>Maintained by Hyon lim</author>
+  <license>GPL</license>
+  <url>https://github.com/limhyon/cvlibs-ros-pkg</url>
+  <depend stack="ros" />
+
+</stack>
